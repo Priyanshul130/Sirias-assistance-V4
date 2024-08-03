@@ -1,6 +1,6 @@
 #**********riddles*********
 import random
-print("welcome to super coders riddles quiz")
+print("welcome to riddles quiz")
 print("-"*30)
 #initialise score and dictonary
 score=0
