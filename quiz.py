@@ -4,7 +4,7 @@ import personal_assistant_api as ast
 
 def play():
     #print the introductory message
-    ast.speak("Welcome to Super Coder Riddles Quiz!")
+    ast.speak("Welcome to Riddles Quiz!")
     print('_'*30)
     #initialize score and dictionary
     score=0
