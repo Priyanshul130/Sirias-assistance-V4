@@ -1,0 +1,10 @@
+umbrella
+rainbow
+crocodile
+elephant
+mouse
+tablet
+laptop
+refrigerator
+park
+television
