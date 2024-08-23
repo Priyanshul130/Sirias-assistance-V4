@@ -1,3 +1,6 @@
+#DEVELOPED BY <PRIYANSHUL SHARMA>
+
+
 import personal_assistant_api as ast
 import hangman as hman
 import quiz
