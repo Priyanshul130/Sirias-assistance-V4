@@ -25,9 +25,7 @@ import tkinter.ttk as ttk
 import tkinter.tix as tix
 import tkinter.ttkthemes as ttkt
 import tkinter.ttkstyle as ttkst
-import tkinter.ttkwidgets as ttkw
-import tkinter.ttkcalendar as ttkcal
-import tkinter.ttknotebook as ttknb
+
 
 #wolfram id
 wolfram_appid="ENTER WOLFRAM ALPHA KEY"
