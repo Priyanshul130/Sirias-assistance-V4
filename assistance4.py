@@ -1,6 +1,5 @@
 #DEVELOPED BY <PRIYANSHUL SHARMA>
 #Webpage Priyanshul.is-a.dev
-
 import personal_assistant_api as ast
 import hangman as hman
 import quiz
@@ -12,6 +11,7 @@ import webbrowser
 import playsound
 import requests
 from openai import OpenAi
+
 
 #wolfram id
 wolfram_appid="ENTER WOLFRAM ALPHA KEY"
