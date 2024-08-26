@@ -13,17 +13,31 @@ import playsound
 import requests
 from openai import OpenAi
 
+import random
+import time
+import tkinter as tk
+import tkinter.messagebox as tkmb
+import tkinter.filedialog as tkfd
+import tkinter.simpledialog as tkd
+import tkinter.font as tkf
+import tkinter.colorchooser as tkc
+import tkinter.ttk as ttk
+import tkinter.tix as tix
+import tkinter.ttkthemes as ttkt
+import tkinter.ttkstyle as ttkst
+import tkinter.ttkwidgets as ttkw
+import tkinter.ttkcalendar as ttkcal
+import tkinter.ttknotebook as ttknb
+
 #wolfram id
-wolfram_appid="TG33P5-7XJGEG6PT5"
+wolfram_appid="ENTER WOLFRAM ALPHA KEY"
 #wheater api key
-weather_api_key="e7715ef3a95e2bba650cbd2f3a558809"
+weather_api_key="Enter API KEY"
 
 
 
 #name of user
 user_name=""
-
-
 def start_conversation():
     global user_name
     #get username till theare is no error
@@ -233,16 +247,3 @@ while True:
             ast.speak(ans)
     else:
         ast.speak("I dont know that")
-
-        
-        
-
-
-
-
-
-
-
-
-        
-        
