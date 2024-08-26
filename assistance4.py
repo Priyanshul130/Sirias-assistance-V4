@@ -17,7 +17,7 @@ import random
 import time
 import tkinter as tk
 import tkinter.messagebox as tkmb
-import tkinter.filedialog as tkfd
+
 
 
 
