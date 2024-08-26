@@ -22,9 +22,7 @@ import tkinter.simpledialog as tkd
 import tkinter.font as tkf
 import tkinter.colorchooser as tkc
 import tkinter.ttk as ttk
-import tkinter.tix as tix
-import tkinter.ttkthemes as ttkt
-import tkinter.ttkstyle as ttkst
+
 
 
 #wolfram id
