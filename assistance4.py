@@ -14,7 +14,6 @@ import requests
 from openai import OpenAi
 
 import random
-import time
 
 
 #wolfram id
