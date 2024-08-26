@@ -18,10 +18,7 @@ import time
 import tkinter as tk
 import tkinter.messagebox as tkmb
 import tkinter.filedialog as tkfd
-import tkinter.simpledialog as tkd
-import tkinter.font as tkf
-import tkinter.colorchooser as tkc
-import tkinter.ttk as ttk
+
 
 
 
