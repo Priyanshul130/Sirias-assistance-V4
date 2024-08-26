@@ -16,7 +16,7 @@ from openai import OpenAi
 import random
 import time
 import tkinter as tk
-import tkinter.messagebox as tkmb
+
 
 
 
