@@ -13,9 +13,6 @@ import playsound
 import requests
 from openai import OpenAi
 
-import random
-
-
 #wolfram id
 wolfram_appid="ENTER WOLFRAM ALPHA KEY"
 #wheater api key
