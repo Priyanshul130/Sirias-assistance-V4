@@ -15,7 +15,7 @@ from openai import OpenAi
 
 import random
 import time
-import tkinter as tk
+
 
 #wolfram id
 wolfram_appid="ENTER WOLFRAM ALPHA KEY"
