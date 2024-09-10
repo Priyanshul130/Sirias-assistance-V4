@@ -1,13 +1,11 @@
-#***********HANGMAN VER 2.0 ************
 
-#import supporting module
 import personal_assistant_api as ast
 
-#import random module
+
 import random
 
 def play():
-    #read the words from the file "words.txt" into a list
+   
     with open("words.txt","r") as f:
         words=f.readlines()
     #select a random word from list and covert to upper case
