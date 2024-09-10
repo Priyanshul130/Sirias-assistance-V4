@@ -1,7 +1,5 @@
 
 import personal_assistant_api as ast
-
-
 import random
 
 def play():
