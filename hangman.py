@@ -31,13 +31,13 @@ def play():
             if guessedWord==theWord:
                 ast.speak("Congratulations!!!You Won with ",totalChance," chances to spare")
                 break
-        else: #if the letter guessed by user was wrong
-            totalChance-=1 #totalChance=totalChance-1
+        else: g
+            totalChance-=1 
             currentChance+=1
             ast.speak("Wrong choice.")
             print("You are now -> ",hangman[:currentChance])
             ast.speak("Chances left "+str(totalChance))
-    #when out of while since chances are exhausted
+   
     else:
         ast.speak("The word was "+theWord)
         ast.speak("You lost.All chances exhausted")
