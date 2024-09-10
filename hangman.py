@@ -1,4 +1,5 @@
-
+#DEVELPED BY <PRIYANSHUL SHARMA>
+# WEBpage priyanshul.is-a.dev
 import personal_assistant_api as ast
 import random
 
