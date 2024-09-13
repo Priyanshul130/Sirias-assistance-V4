@@ -62,8 +62,7 @@ def whatcanido():
 
 def queryChatGpt(user_input):
     gpt=OpenAi(
-        api='org-GFaLUibFwmZcFBTKNN8PMq1k'
-        )
+        api='org-GFaLUibFwmZcFBTKNN8PMq1k')
     r=gpt.chat.completions.create(
         model="gpt-4"
         messages=[{
@@ -71,7 +70,6 @@ def queryChatGpt(user_input):
             'content':user_input}]
         )
     ast.speak(r.choices[0].message.content)
-    
 
 def querywolfram(user_input):
     #use the same apiid that we have generated earlier
@@ -94,7 +92,6 @@ def queryWikipedia(user_input):
         queryGoogle(user_input)
 
 def queryGoogle(user_input):
-    
     webbrowser.open_new_tab(user_input)
     
 def getWeather():
@@ -111,15 +108,12 @@ def getWeather():
         ast.speak("Sorry!I don't have information on that")
     else:
         value=res["main"]
-        current_temperature = int(float(value["temp"])-273.15)
+        current_temperature = int(float(value["temp"])-2h73.15)
         current_humidiy = value["humidity"]
         ast.speak(" Temperature is " + str(current_temperature) +" degree celsius "+
                     "and humidity is " + str(current_humidiy) + " percentage.")
-
-    
 #start
 start_conversation()
-
 while True:
     '''repeat=input("do you have more")
     if repeat=="no":
