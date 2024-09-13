@@ -1,6 +1,5 @@
 #DEVELOPED BY <PRIYANSHUL SHARMA>
 #Webpage Priyanshul.is-a.dev
-
 import personal_assistant_api as ast
 import hangman as hman
 import quiz
@@ -13,25 +12,24 @@ import playsound
 import requests
 from openai import OpenAi
 
+
 #wolfram id
 wolfram_appid="ENTER WOLFRAM ALPHA KEY"
 #wheater api key
 weather_api_key="Enter API KEY"
 
 
-
-#name of user
 user_name=""
 def start_conversation():
     global user_name
-    #get username till theare is no error
+  
     ast.speak("what is your name HUMAN?")
     while True:
         user_name=ast.getAudio()
         if user_name!="bad input":
             break
 
-    #find approtiation greeting
+ 
     hour=int(datetime.datetime.now().hour)
     if hour>=0 and hour<12:
         ast.speak("hello good morning "+user_name)
@@ -42,7 +40,7 @@ def start_conversation():
     ast.speak("i am your assistant and my name is "+ast.myAssistantName)
 
 
-#function personal assistant can do
+
 def whatcanido():
     ast.speak("Hello "+user_name)
     ast.speak("My name is "+ast.myAssistantName)
@@ -72,7 +70,7 @@ def queryChatGpt(user_input):
     ast.speak(r.choices[0].message.content)
 
 def querywolfram(user_input):
-    #use the same apiid that we have generated earlier
+    
     client=wolframalpha.Client(wolfram_appid)
     res=client.query(user_input)
     try:
@@ -112,7 +110,6 @@ def getWeather():
         current_humidiy = value["humidity"]
         ast.speak(" Temperature is " + str(current_temperature) +" degree celsius "+
                     "and humidity is " + str(current_humidiy) + " percentage.")
-#start
 start_conversation()
 while True:
     '''repeat=input("do you have more")
