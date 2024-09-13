@@ -141,7 +141,6 @@ while True:
         os.system('shutdown /s /t 1')
         break
     elif "search" in user_input or 'google' in user_input:
-        
         queryGoogle(user_input)
     elif 'wikipedia' in user_input or "from wikipedia" in user_input:
         queryWikipedia(user_input)
