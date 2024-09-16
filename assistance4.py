@@ -13,11 +13,12 @@ import requests
 from openai import OpenAi
 
 
+
+
 #wolfram id
 wolfram_appid="ENTER WOLFRAM ALPHA KEY"
 #wheater api key
 weather_api_key="Enter API KEY"
-
 
 user_name=""
 def start_conversation():
@@ -149,6 +150,7 @@ while True:
         ast.speak("ask me ")
         user_input=ast.getAudio().lower()
         querywolfram(user_input)
+        
     elif 'chatGPT ' in user_input or 'Ask AI' in user_input:
         queryChatGpt(user_input)
     elif "weather" in user_input:
