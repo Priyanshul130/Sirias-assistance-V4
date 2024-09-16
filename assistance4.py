@@ -17,10 +17,7 @@ from openai import OpenAi
 wolfram_appid="ENTER WOLFRAM ALPHA KEY"
 #wheater api key
 weather_api_key="Enter API KEY" 
-
 user_name=""
-
-
 
 def start_conversation():
     global user_name
