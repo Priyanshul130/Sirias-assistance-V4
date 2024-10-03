@@ -19,6 +19,7 @@ from openai import OpenAi
 
 
 
+
 #wolfram id
 wolfram_appid="ENTER WOLFRAM ALPHA KEY"
 #wheater api key
